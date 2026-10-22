@@ -17,12 +17,10 @@ with Timer():
 
 #import time
 #from contextlib import contextmanager
-
 #@contextmanager
 #def timer():
 #    start = time.perf_counter()
 #    yield
 #    print(time.perf_counter() - start)
-
 #with timer():
 #   sum(range(10**6))
